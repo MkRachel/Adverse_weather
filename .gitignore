@@ -2,3 +2,8 @@ venv/
 synthetic_dataset/
 __pycache__/
 *.pyc
+synthetic_dataset.zip
+synthetic_dataset/
+venv/
+__pycache__/
+*.pyc
