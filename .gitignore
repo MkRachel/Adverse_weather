@@ -1,0 +1,4 @@
+venv/
+synthetic_dataset/
+__pycache__/
+*.pyc
