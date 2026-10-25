@@ -70,6 +70,33 @@ The dataset is not stored in this repository. Link: TODO.
 
 1,001 images (706 train, 149 validation, 146 test), cleaned by converting 16 polygon labels to boxes and moving 7 images so no near-duplicate scene spans two splits. Sources and licences: TODO.
 
+## Datasets, Model Weights and Experiment Outputs
+
+The project artifact folder is available here:
+
+[Project artifacts on Google Drive](https://drive.google.com/drive/folders/13NTni0nVUvqXvd2HAJPZn20LLxsq750o)
+
+The folder contains the synthetic and cleaned real datasets, trained model
+weights, results tables, evaluation plots and demonstration material.
+
+Key files:
+- synthetic.zip: synthetic training dataset
+- real.zip: cleaned real dataset
+- synthetic_best.pt: synthetic-trained model
+- finetuned_best.pt: synthetic-then-real model
+- real_only_best.pt: real-only baseline
+- results_table.csv: experimental results
+- runs/: training, evaluation and prediction outputs
+- synthetic_label_flags.csv: synthetic annotation audit
+
+check_images.zip contains generated annotation previews, not model predictions.
+real_original.zip is the original real-data backup, not the cleaned training version.
+
+Real-data source attribution and licence information are being confirmed.
+Access to third-party datasets is subject to their original usage conditions.
+
+
+
 ## Repository layout
 
 ```text
