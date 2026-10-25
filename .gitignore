@@ -3,3 +3,16 @@ synthetic_dataset/
 __pycache__/
 *.pyc
 synthetic_dataset.zip
+check_images/
+
+# Generated datasets and archives
+hazard_dataset/
+background_archive/
+hazard_dataset*.zip
+check_images/
+check_images.zip
+check_*.png
+runs/
+
+# Personal notes
+/readme for me
